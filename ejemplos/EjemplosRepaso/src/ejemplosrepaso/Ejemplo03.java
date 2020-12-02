@@ -45,8 +45,10 @@ public class Ejemplo03 {
                 }
             }
         }
-        
+        if ((tipoRegion==1)||(tipoRegion==2)||(tipoRegion==3)||(tipoRegion==4)){
         System.out.printf("Usted seleccionó: %s\n", region);
-    }
+        }
+     
+}
     
 }
