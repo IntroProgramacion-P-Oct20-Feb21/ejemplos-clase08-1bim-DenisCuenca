@@ -17,7 +17,10 @@ public class Ejemplo06 {
         int contador = 1;
         do {
             System.out.printf("%d\n", contador);
-
+            contador += 4;
+            if (contador==10){
+contador =1;
+        }
         } while (contador <= 10);
 
     }
