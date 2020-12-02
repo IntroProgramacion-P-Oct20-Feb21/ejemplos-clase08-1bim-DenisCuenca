@@ -18,8 +18,6 @@ public class Ejemplo03 {
     public static void main(String[] args) {
         // 
         Scanner entrada = new Scanner(System.in);
-        String ciudad;
-        String pais;
         String region = "";
         int tipoRegion;
         System.out.println("Ingrese el tipo los siguientes datos para imprimir "
@@ -41,6 +39,8 @@ public class Ejemplo03 {
                 }else{
                     if (tipoRegion==4) {
                         region = "Región Insular";
+                    }else{
+                        System.out.println("Error, no existe región.");
                     }
                 }
             }
